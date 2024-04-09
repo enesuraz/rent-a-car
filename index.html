@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="utilizes advanced algorithms to optimize the allocation of
+    rental vehicles based on factors such as location, demand, and
+    vehicle type"
+  />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🏎</text></svg>"></link>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>RentCars &mdash; Choose a car</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="assets/car-logo.png" alt="App logo" class="logo__photo" />
+        </div>
+
+        <form action="#" class="search">
+          <button class="search__button">
+            <svg>
+              <use xlink:href="assets/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+          <input type="text" class="search__input" placeholder="Search" />
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-container">
+            <svg>
+              <use xlink:href="assets/sprite.svg#icon-bell"></use>
+            </svg>
+            <span class="user-nav__notification-dot"></span>
+          </div>
+
+          <div class="user-nav__icon-container">
+            <svg>
+              <use xlink:href="assets/sprite.svg#icon-shopping-bag"></use>
+            </svg>
+            <span class="user-nav__notification-dot"></span>
+          </div>
+
+          <div class="user-nav__user-container">
+            <img
+              src="assets/face.jpg"
+              alt="Logged in user"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-info">Enes Uraz</span>
+            <span class="user-nav__user-info">⌄</span>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="sidebar">
+          <ul class="sidebar-nav-top">
+            <li class="sidebar-nav-top__item">
+              <a href="#" class="sidebar-nav-top__link">
+                <svg>
+                  <use xlink:href="assets/sprite.svg#icon-blackboard"></use>
+                </svg>
+                Dashboard
+              </a>
+            </li>
+            <li class="sidebar-nav-top__item active">
+              <a href="#" class="sidebar-nav-top__link">
+                <svg>
+                  <use xlink:href="assets/sprite.svg#icon-pie-chart"></use>
+                </svg>
+                Reports
+              </a>
+            </li>
+            <li class="sidebar-nav-top__item">
+              <a href="#" class="sidebar-nav-top__link">
+                <svg>
+                  <use xlink:href="assets/sprite.svg#icon-price-tag"></use>
+                </svg>
+                Payments
+              </a>
+            </li>
+            <li class="sidebar-nav-top__item">
+              <a href="#" class="sidebar-nav-top__link">
+                <svg>
+                  <use xlink:href="assets/sprite.svg#icon-trophy"></use>
+                </svg>
+                Awards
+              </a>
+            </li>
+          </ul>
+
+          <ul class="sidebar-nav-bottom">
+            <li class="sidebar-nav-bottom__item">
+              <a href="#" class="sidebar-nav-bottom__link">
+                <svg>
+                  <use xlink:href="assets/sprite.svg#icon-cog"></use>
+                </svg>
+                Settings
+              </a>
+            </li>
+            <li class="sidebar-nav-bottom__item">
+              <a href="#" class="sidebar-nav-bottom__link">
+                <svg>
+                  <use
+                    xlink:href="assets/sprite.svg#icon-help-with-circle"
+                  ></use>
+                </svg>
+                Help
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <div class="cars-details">
+            <h2 class="cars-details__title">Five Star Cars</h2>
+            <div class="cars-details__stars">
+              <svg>
+                <use xlink:href="assets/sprite.svg#icon-star"></use>
+              </svg>
+              <svg>
+                <use xlink:href="assets/sprite.svg#icon-star"></use>
+              </svg>
+              <svg>
+                <use xlink:href="assets/sprite.svg#icon-star"></use>
+              </svg>
+              <svg>
+                <use xlink:href="assets/sprite.svg#icon-star"></use>
+              </svg>
+              <svg>
+                <use xlink:href="assets/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="cars-details__button">
+              <button class="btn">Discover more</button>
+            </div>
+          </div>
+          <div class="cars">
+            <figure class="cars--wide">
+              <img
+                src="assets/car-1.jpg"
+                alt="Car like a jaguar"
+                class="cars__photo cars__photo--wide"
+              />
+            </figure>
+            <figure>
+              <img
+                src="assets/car-2.jpg"
+                alt="Black carr"
+                class="cars__photo"
+              />
+            </figure>
+            <figure>
+              <img src="assets/car-3.jpg" alt="Blue car" class="cars__photo" />
+            </figure>
+            <figure>
+              <img
+                src="assets/car-4.jpg"
+                alt="Yellow car"
+                class="cars__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="features">
+            <div class="features-container">
+              <div class="feature">
+                <span class="feature__emoji">📱</span>
+                <h1 class="feature__title">Smart Vehicle Allocation</h1>
+                <p class="feature__description">
+                  utilizes advanced algorithms to optimize the allocation of
+                  rental vehicles based on factors such as location, demand, and
+                  vehicle type
+                </p>
+              </div>
+              <div class="feature">
+                <span class="feature__emoji">🗓️</span>
+                <h1 class="feature__title">Integrated Maintenance Scheduler</h1>
+                <p class="feature__description">
+                  users can schedule and track maintenance tasks for the entire
+                  rental car fleet directly within the app
+                </p>
+              </div>
+              <div class="feature">
+                <span class="feature__emoji">🏷️</span>
+                <h1 class="feature__title">Dynamic Pricing Engine</h1>
+                <p class="feature__description">
+                  enables rental car businesses to implement flexible pricing
+                  strategies based on market demand, seasonality, and other
+                  factors
+                </p>
+              </div>
+              <div class="feature">
+                <span class="feature__emoji">📉</span>
+                <h1 class="feature__title">Comprehensive Reporting Suite</h1>
+                <p class="feature__description">
+                  provides a comprehensive suite of reporting and analytics
+                  tools, allowing rental car businesses to gain valuable
+                  insights into their operations
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonials-container">
+              <div class="testimonial">
+                <img
+                  src="assets/user-1.jpg"
+                  alt="TravelerTom"
+                  class="testimonial__photo"
+                />
+                <p class="testimonial__description">
+                  As a frequent traveler, I rely on rental cars a lot, and this
+                  app has made the process so much smoother! The dynamic pricing
+                  engine ensures that I always get the best rates, whether it's
+                  peak season or off-peak
+                </p>
+                <em class="testimonial__username">TravelerTom</em>
+              </div>
+              <div class="testimonial">
+                <img
+                  src="assets/user-2.jpg"
+                  alt="Emily88"
+                  class="testimonial__photo"
+                />
+                <p class="testimonial__description">
+                  I've been using this rental car app for my small business, and
+                  it has been a game-changer! The smart vehicle allocation
+                  feature makes it so easy to manage my fleet and ensure that
+                  every reservation is fulfilled promptly.
+                </p>
+                <em class="testimonial__username">Emily88</em>
+              </div>
+            </div>
+          </div>
+
+          <div class="action">
+            <h1 class="action__title">
+              Revolutionize Your Rental Business: Unlock Efficiency
+            </h1>
+            <button class="btn-secondary">Sign Now</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

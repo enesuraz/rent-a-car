@@ -1,0 +1,53 @@
+$main-color:#3766a9;
+$main-color-light:#afc2dd;
+$main-color-dark:#162944;
+
+$dark-color:#3a3937;
+$white-color:#fffefb;
+
+$dark-grey:#8c8c8c;
+$light-grey:#d3d3d3;
+
+$tablet-landscape:75em;
+$tablet-portrait:56.25em;
+$custom-break-middle:48.2em;
+$phone:37.5em;
+$custom-break-small:29.5em;
+
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+    @media only screen and (max-width:$tablet-landscape){
+        font-size: 56.25%;
+    }
+
+    @media only screen and (max-width:$tablet-portrait){
+        font-size: 50%;
+    }
+}
+
+body{
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1;
+    color:$dark-color;
+
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom,$main-color,$main-color-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0 3.2rem;
+
+    @media only screen and (max-width:$tablet-portrait){
+        padding:0;
+    }
+}
